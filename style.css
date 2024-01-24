@@ -1,0 +1,343 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Header Start */
+.header{
+    width:100%;
+    height:100px;
+    background:#fff;
+    display:flex;
+    justify-content:space-around;
+    
+    
+}
+
+.logo img{
+    width:120px;
+    height:auto;
+    margin: 33px 0px 0px 0px;
+}
+.header .menu li{
+    display:inline-block;
+    margin: 38px 20px 0px 20px;
+}
+
+.header .login li{
+    display:inline-block;
+    margin: 20px 10px 0px 10px;
+    
+    
+    
+}
+.header .menu{
+    margin-left:100px;
+    
+}
+
+.header .menu li a{
+
+    text-decoration:none;
+    font-size:18px;
+    color:#000;
+    font-weight:600;
+}
+
+.header .login li a{
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+    color:#000;
+}
+
+.header .login li button{
+    padding:18px;
+    font-size:20px;
+    background:linear-gradient(90deg, #dc4685, #c42fdb);
+    border-radius:8px;
+    border-style:none;
+    color:#fff;
+    
+}
+
+.header .login li button a{
+    color:#fff;
+}
+
+/* Header End */
+
+/* Section 1 Start */
+
+.section1{
+    margin-left:10px;
+    opacity:0.9;
+    margin-top:-10px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:500px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeeytXWYj3OmLe4Z9letYrZChDEEeoEMHO9A&usqp=CAU');
+    
+}
+.sectionTag{
+    color:#fff;
+    display:flex;
+    
+    
+}
+
+.textArea{
+    
+    width:400px;
+  
+    position:relative;
+    margin:0 auto;
+    margin-top:100px;
+    
+}
+.textArea h1{
+    font-size:50px;
+    
+}
+.textArea p{
+    font-size:14px;
+    color: #fff;
+    opacity:0.8;
+    line-height:18px;
+    margin-top:10px;
+    font-weight:600;
+}
+
+.imgTag img{
+    width:400px;
+    
+}
+
+.textArea button{
+    padding:18px 25px;
+    margin-top:15px;
+    font-size:20px;
+    background:linear-gradient(90deg, #dc4685, #c42fdb);
+    border-radius:12px;
+    border-style:none;
+    color:#fff;
+    font-weight:bold;
+}
+
+/* Section 1 End */
+
+/* Section 2 Started */
+
+.section2Tag{
+    width:100%;
+    height:400px;
+    margin-top:40px;
+    display:flex;
+    justify-content:space-between;
+    
+    
+}
+
+.textArea2{
+    width:600px;
+    justify-content:center;
+    margin-left:40px;
+    margin-top:40px;
+}
+
+.textArea2 h1{
+    font-size:40px;
+    
+}
+
+.textArea2 p{
+    font-size:16px;
+    line-height:26px;
+    margin-top:30px;
+    color:#000;
+    opacity:0.8;
+}
+
+.textArea2 .btn3 , .btn4{
+    padding:18px 25px;
+    margin-top:15px;
+    font-size:20px;
+    background:linear-gradient(90deg, #dc4685, #c42fdb);
+    border-radius:12px;
+    border-style:none;
+    color:#fff;
+    font-weight:bold;
+    margin-right:25px;
+    
+    margin-top:40px;
+}
+
+
+.section2Tag .imgTag2 img{
+    width:430px;
+    
+}
+/* Section 2 End */
+
+/* Section 3 Start */
+
+.sectionTag3{
+    width:100%;
+    height:320px;
+    display:flex;
+    justify-content:center;
+    background:#F9F5F6;
+    padding:80px 0px 20px 0px;
+}
+
+.sectionTag3 img{
+    width:400px;
+}
+
+.textArea3{
+    width:450px;
+    margin-left:50px;
+   
+    
+}
+.textArea3 p{
+    font-size:14px;
+    line-height:22px;
+    margin-top:10px;
+    color:#000;
+    opacity:0.7;
+}
+
+.textArea3 h1{
+    font-size:40px;
+}
+
+.textArea3 button{
+    margin-left:-10px;
+    margin-top:20px;
+}
+
+/* Section 3 End */
+
+/* Section 4 Start */
+.section4Tag{
+    width:100%;
+    height:1000px;
+    margin-top:40px;
+}
+
+.textArea4{
+    width:100%;
+    text-align:center;
+}
+.textArea4 h1{
+    font-size:40px;
+    margin-bottom:20px;
+    
+}
+.textArea4 p{
+    font-size:18px;
+    color:#000;
+    opacity:0.7;
+}
+
+.imgTag4{
+    width:100;
+    display:flex;
+    flex-wrap:wrap;
+}
+.iconTag{
+    width:400px;
+    justify-content:center;
+    margin:0 auto;
+}
+.iconTag h3{
+    font-size:30px;
+    text-align:center;
+}
+.iconTag p{
+    font-size:16x;
+    color:#000;
+    opacity:0.7;
+    line-height:25px;
+    text-align:center;
+    margin-top:10px;
+}
+
+.iconTag img{
+    width:300px;
+    margin:30px 0px 25px 60px;
+}
+
+/* Section 4 End */
+
+/* Footer Start */
+footer .footerSection{
+    width:100%;
+    height:250px;
+    background: rgba(0,0,0,0.9);
+    color:#fff;
+    display:flex;
+    justify-content:space-around;
+    margin:0;
+    padding:10px;
+    
+ }
+ 
+.footerSection .footerClass{
+    width:350px;
+   margin:40px 5px 10px 5px;
+   justify-content:space-around;
+   align-items:center;
+    
+}
+
+.footerSection .footerClass p{
+    font-size:14px;
+    text-align:justify;
+    color:#fff;
+    opacity:0.8;
+    line-height:21px;
+    margin-left:45px;
+   
+    
+}
+
+.footerSection .footerClass h3{
+    font-size:28px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.footerSection .footerClass input{
+    padding:14px;
+    margin:36px 0px 0px 35px;
+    outline:none;
+    border-style:none;
+    border-radius:5px;
+}
+
+.btn10{
+    padding:14px;
+    font-size:14px;
+    background:linear-gradient(90deg, #dc4685, #c42fdb);
+    border-radius:0px;
+    border-style:none;
+    color:#fff;
+    margin-left:-8px;
+    
+}
+
+.footerSection .footerClass i{
+    font-size:18px;
+    margin:50px 0px 0px 50px;
+    color:#fff;
+    
+}
+
+.footerSection .footerClass p{
+    margin:10px 0px 0px 0px;
+    text-align:center;
+}
+
+/* Footer End */
